@@ -1,0 +1,41 @@
+# ─── Secretos y credenciales (NUNCA subir a Git)
+.env
+.env.local
+.env.production
+*.env
+
+# ─── Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# ─── Node / Frontend
+node_modules/
+frontend/dist/
+.next/
+
+# ─── Logs
+*.log
+logs/
+
+# ─── macOS
+.DS_Store
+.AppleDouble
+
+# ─── IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── Datos sensibles
+*.sqlite
+*.db
+secrets/
+private/
